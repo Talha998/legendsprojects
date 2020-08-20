@@ -1,2 +1,2 @@
 # legendsprojects
- yes you can me some projests and simple demonstrat
+ some buddles use in projects currernt 
