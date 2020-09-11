@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 50px;
+    background-color: yellowgreen;
+    color: black
+}
+
+table.tab1
+{
+border-style:none;
+}
+td.type1
+{
+background-color:burlywood;
+font-size: bold;
+font-size: 20px;
+
+}
+td.type2
+{
+background-color: lightcyan;
+color:black;
+font-size: bold;
+font-size: 20px;
+}
+td.type3
+{
+background-color: lightcoral;
+font-size: bold;
+font-size: 20px;
+/* padding: 7px;
+padding-right: 60px; */
+
+}
+td.type4
+{
+background-color: purple;
+color:white;
+font-size: bold;
+font-size: 20px;
+}
+td.type5
+{
+background-color: blueviolet;
+font-size: bold;
+font-size: 20px;
+padding: 5px;
+padding-right: 60px;
+
+}
+
+
+td.type6
+{
+background-color: lightseagreen;
+font-size: bold;
+font-size: 20px;
+padding: 7px;
+padding-right: 60px;
+}
+ td.type7
+{
+    font-size: bold;
+    font-size: 20px;
+}
+td.type8
+{
+    font-size: bold;
+    font-size: 20px;
+} 
+td.type9
+{
+background-color:lightgreen;
+font-size: bold;
+font-size: 20px;
+}
+td.type10
+{
+background-color:pink;
+font-size: bold;
+font-size: 20px;
+}
+td.stype1
+{
+border-bottom-style:none;
+border-top-style:none;
+}
+td.stype2
+{
+border-bottom-style:none;
+border-top-style:none;
+border-left-style:none;
+}
