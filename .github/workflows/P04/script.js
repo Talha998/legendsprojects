@@ -1,5 +1,4 @@
 // Getting Elements from DOM
-function calculate() {
 const currOnePicker = document.getElementById('currency-one');
 const currTwoPicker = document.getElementById('currency-two');
 const currOneAmount = document.getElementById('amount-one');
@@ -18,6 +17,7 @@ function calculate() {
        .then( data => {
            // Get the exchange rate API
              const exchangeRate = data.conversion_rates[currencyTwoCode];
+             console.log(exchangeRate, "Exchange Rate")
              //Display the Conversion Rate 
              rate.innerText = `1 ${currencyOneCode}= ${exchangeRate} ${currencyTwoCode}`;
              // apply conversion rate and update amount of currency 
@@ -33,7 +33,7 @@ function flip() {
     const temp = currOnePicker.value;
     currOnePicker.value = currOnePicker.value;
     currTwoPicker.value = temp;
-    calculate();
+    calculate();     
 }; 
 
 //Event Listeners 

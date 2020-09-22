@@ -1,7 +1,7 @@
 const video = document.getElementById('video');
 const play = document.getElementById('play');
 const stop = document.getElementById('stop');
-const progress = document.getElementById('progress');]
+const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp')
 
 
@@ -56,7 +56,7 @@ function stopVideo() {
 
 //5- setProgress - update video play time based on manual  change in progress bar 
 function setProgress() {
-video currentTime = progress.value * video.duration / 100;
+video.currentTime = progress.value * video.duration / 100;
 };   
 
 
